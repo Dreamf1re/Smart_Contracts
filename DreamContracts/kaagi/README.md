@@ -14,7 +14,7 @@ ensure that the file uploaded to the blockchain is exactly the same with the ori
 ## Downloading Files
 The download works by using the Transaction ID from the upload process to 
 "stitch" back the contents of the file. There is no need to check for circularity 
-as the file was confirmed to be the same with the original file in the before the upload
+as the file was confirmed to be the same with the original file before the upload
 process was finished.
 
 The File ID is basically an Algorand Transaction ID. Any file previously uploaded can be
